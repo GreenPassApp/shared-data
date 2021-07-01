@@ -1,6 +1,6 @@
 
 [![Logo](https://greenpassapp.eu/assets/presskit/logos/GreenPass_Logo.svg)](https://greenpassapp.eu/)
-# GreenPass - App
+# GreenPass - Shared
 
 This repository contains the regulations for the EU countries. We use the [ISO 8601 ](https://en.wikipedia.org/wiki/ISO_8601 "ISO 8601 ") standard for durations.
   
