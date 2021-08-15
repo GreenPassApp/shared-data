@@ -1,0 +1,20 @@
+name: 'Clone validation-by-country.json to validationByCountry.json'
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  clone:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy file
+        uses: andstor/copycat-action@v3.2.4
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          src_path: validation-by-country.json
+          src_branch: main
+          dst_path: validationByCountry.json
+          dst_branch: main
+          dst_owner: GreenPassApp
+          dst_repo_name: shared-data
+          commit_message: 'Clone country validation file'
