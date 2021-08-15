@@ -1,11 +1,9 @@
 {
   "AT": [
     {
-      "validFrom": "2021-07-01T00:00:00",
+      "validFrom": "2021-08-15T00:00:00",
       "rapidTestDuration": "P2D",
       "PCRTestDuration": "P3D",
-      "validFromPartialVac": "P22D",
-      "validUntilPartialVac": "P90D",
       "validUntilFullVac": "P270D"
     }
   ],
