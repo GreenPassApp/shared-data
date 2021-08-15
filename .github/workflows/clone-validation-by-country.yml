@@ -11,9 +11,9 @@ jobs:
         uses: andstor/copycat-action@v3.2.4
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          src_path: validation-by-country.json
+          src_path: /validation-by-country.json
           src_branch: main
-          dst_path: validationByCountry.json
+          dst_path: /validationByCountry.json
           dst_branch: main
           dst_owner: GreenPassApp
           dst_repo_name: shared-data
