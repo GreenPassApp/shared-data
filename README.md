@@ -8,6 +8,7 @@ File | Content Description
 --- | ---
 `validation-by-country.json` | This file contains the regulations for the EU countries. We use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601 "ISO 8601") standard for durations.
 `outdated-app-versions.json` | This file contains a list of regular expressions matching outdated mobile app versions. This is useful for older app versions to alert the user that a new update is required for continued reliable validations.
+`validationByCountry.json` | This is a mirror of `validation-by-country.json`, since older versions of the mobile app (1.0.0 and 1.0.1) use this filename. A GitHub Actions workflow ensures that this file is always mirrored.
 
 ## Feedback
 
