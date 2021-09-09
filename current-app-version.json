@@ -1,0 +1,9 @@
+{
+  "android": {
+    "version": "1.0.2",
+    "download": {
+      "url": "https://github.com/GreenPassApp/greenpass-app/releases/download/1.0.2/GreenPass_v1.0.2.apk",
+      "sha256": "14ff27f7f0176e73c7d4c803c4bb215cd395a46095a139beebfba7593fc71c60"
+    }
+  }
+}
