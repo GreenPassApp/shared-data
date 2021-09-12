@@ -1,14 +1,14 @@
 {
   "android": {
-    "version": "1.0.2",
-    "updated_at": "2021-07-16",
+    "version": "1.1.1",
+    "updated_at": "2021-09-12",
     "download": {
-      "url": "https://github.com/GreenPassApp/greenpass-app/releases/download/1.0.2/GreenPass_v1.0.2.apk",
-      "sha256": "14ff27f7f0176e73c7d4c803c4bb215cd395a46095a139beebfba7593fc71c60"
+      "url": "https://github.com/GreenPassApp/greenpass-app/releases/download/1.1.1/GreenPass_v1.1.1.apk",
+      "sha256": "9e80f24e15f7292d7719ab5b0b87b579b75fc2ba4210a8db3ab93285a20cc8cb"
     },
     "changelog": {
-      "en": "This is the last version without an included updater.\nThis Text is currently used for test purposes only.",
-      "de": "Dies ist die letzte Version ohne eingebauten Updater.\nDieser Text wird gerade nur zu Testzwecken verwendet."
+      "en": "- Cosmetic changes to the app\n- Added information about cooperation partner\n- Added outdated app version check\n- Added app updater\n- Reduced app size\n- Removed share feature\n- The dependency on an external server for automatic country detection when the app is launched for the first time has been removed\n- Bug fixes",
+      "de": "- Kosmetische Änderungen an der App\n- Informationen über Kooperationspartner hinzugefügt\n- Prüfung auf veraltete App-Versionen hinzugefügt\n- App-Updater hinzugefügt\n- Speicherbelegung der App reduziert\n- Teilen-Funktion wurde entfernt\n- Die Abhängigkeit von einem externen Server für die automatische Ländererkennung beim erstmaligen Start der App wurde entfernt\n- Fehlerbehebungen"
     }
   }
 }
