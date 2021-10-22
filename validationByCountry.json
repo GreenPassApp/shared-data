@@ -2,7 +2,7 @@
   "AT": [
     {
       "validFrom": "2021-08-15T00:00:00",
-      "rapidTestDuration": "P2D",
+      "rapidTestDuration": "P1D",
       "PCRTestDuration": "P3D",
       "validUntilFullVac": "P270D"
     }
