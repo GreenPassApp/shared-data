@@ -1,7 +1,7 @@
 {
   "lang": {
     "en": {
-      "subr_AT-9": "Wien",
+      "subr_AT-9": "Vienna",
       "rule_entrance_test": "Entrance test",
       "rule_entry": "Entry",
       "rule_night_gastronomy": "Night gastronomy"
@@ -18,9 +18,10 @@
       "rec": true,
       "vac": [
         {
+          "mp": "EU/1/20/1525",
           "dn": 1,
           "full": true,
-          "wait": "P21D",
+          "wait": "P22D",
           "dur": "P270D"
         },
         {
