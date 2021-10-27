@@ -1,14 +1,14 @@
 {
   "android": {
-    "version": "1.1.1",
-    "updated_at": "2021-09-12",
+    "version": "1.2.0",
+    "updated_at": "2021-10-27",
     "download": {
-      "url": "https://github.com/GreenPassApp/greenpass-app/releases/download/1.1.1/GreenPass_v1.1.1.apk",
-      "sha256": "9e80f24e15f7292d7719ab5b0b87b579b75fc2ba4210a8db3ab93285a20cc8cb"
+      "url": "https://github.com/GreenPassApp/greenpass-app/releases/download/1.2.0/GreenPass_v1.2.0.apk",
+      "sha256": "31bc39f7b5e7043a246e03f6626087d7ef5abc4a379d59cdd034ffdcb623ba57"
     },
     "changelog": {
-      "en": "- Cosmetic changes to the app\n- Added information about cooperation partner\n- Added outdated app version check\n- Added app updater\n- Reduced app size\n- Removed share feature\n- The dependency on an external server for automatic country detection when the app is launched for the first time has been removed\n- Bug fixes",
-      "de": "- Kosmetische Änderungen an der App\n- Informationen über Kooperationspartner hinzugefügt\n- Prüfung auf veraltete App-Versionen hinzugefügt\n- App-Updater hinzugefügt\n- Speicherbelegung der App reduziert\n- Teilen-Funktion wurde entfernt\n- Die Abhängigkeit von einem externen Server für die automatische Ländererkennung beim erstmaligen Start der App wurde entfernt\n- Fehlerbehebungen"
+      "en": "- Color validations by individual regions and purposes have been added\n- Technical expiry date was added in the detail view\n- Cosmetic changes to the app\n- Startup time has been improved\n- Bug fixes",
+      "de": "- Validierungen nach einzelnen Regionen und Verwendungszwecken wurde hinzugefügt\n- Technisches Ablaufdatum wurde in der Detailansicht hinzugefügt\n- Kosmetische Änderungen an der App\n- Startzeit wurde verbessert\n- Fehlerbehebungen"
     }
   }
 }
