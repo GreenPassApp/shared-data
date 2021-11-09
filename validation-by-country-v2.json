@@ -1,10 +1,6 @@
 {
   "lang": {
     "en": {
-      "subr_AT-9": "Vienna",
-      "rule_entrance_test": "Entrance test",
-      "rule_night_gastronomy": "Night gastronomy",
-      "rule_event_500": "Major events (>500)",
       "rule_entry": "Entry",
       "rule_entrance_test_2g": "Entrance test (2G)",
       "rule_workplace_3g": "\"3G\" in workplaces",
@@ -13,10 +9,6 @@
       "rule_event_25_2g": "Events (>25) (2G)"
     },
     "de": {
-      "subr_AT-9": "Wien",
-      "rule_entrance_test": "Eintrittstest",
-      "rule_night_gastronomy": "Nachtgastronomie",
-      "rule_event_500": "Großveranstaltungen (>500)",
       "rule_entry": "Einreise",
       "rule_entrance_test_2g": "Eintrittstest (2G)",
       "rule_workplace_3g": "3G am Arbeitsplatz",
@@ -26,6 +18,23 @@
     }
   },
   "rulesets": {
+    "AT_2Go": {
+      "rec": true,
+      "vac": [
+        {
+          "mp": "EU/1/20/1525",
+          "dn": 1,
+          "full": true,
+          "wait": "P22D",
+          "dur": "P270D"
+        },
+        {
+          "full": true,
+          "wait": "P0D",
+          "dur": "P360D"
+        }
+      ]
+    },
     "AT_2G": {
       "rec": true,
       "vac": [
@@ -53,78 +62,56 @@
   "countries": {
     "AT": {
       "rules": {
-        "entrance_test": [
-          {
-            "validFrom": "2021-08-15T00:00:00",
-            "validUntil": "2021-11-08T00:00:00",
-            "ruleset": ["AT_2G", "AT_pt", "AT_rt"]
-          }
-        ],
-        "night_gastronomy": [
-          {
-            "validFrom": "2021-08-15T00:00:00",
-            "validUntil": "2021-11-08T00:00:00",
-            "ruleset": ["AT_2G", "AT_pt"]
-          }
-        ],
         "entrance_test_2g": [
           {
             "validFrom": "2021-11-08T00:00:00",
+            "ruleset": "AT_2Go"
+          },
+          {
+            "validFrom": "2021-12-06T00:00:00",
             "ruleset": "AT_2G"
           }
         ],
         "workplace_3g": [
           {
             "validFrom": "2021-11-01T00:00:00",
+            "ruleset": ["AT_2Go", "AT_pt", "AT_rt"]
+          },
+          {
+            "validFrom": "2021-12-06T00:00:00",
             "ruleset": ["AT_2G", "AT_pt", "AT_rt"]
           }
         ],
         "workplace_2_5g": [
           {
             "validFrom": "2021-11-15T00:00:00",
+            "ruleset": ["AT_2Go", "AT_pt"]
+          },
+          {
+            "validFrom": "2021-12-06T00:00:00",
             "ruleset": ["AT_2G", "AT_pt"]
           }
         ],
         "night_gastronomy_2g": [
           {
             "validFrom": "2021-11-08T00:00:00",
+            "ruleset": "AT_2Go"
+          },
+          {
+            "validFrom": "2021-12-06T00:00:00",
             "ruleset": "AT_2G"
           }
         ],
         "event_25_2g": [
           {
             "validFrom": "2021-11-08T00:00:00",
+            "ruleset": "AT_2Go"
+          },
+          {
+            "validFrom": "2021-12-06T00:00:00",
             "ruleset": "AT_2G"
           }
         ]
-      },
-      "subregions": {
-        "AT-9": {
-          "rules": {
-            "entrance_test": [
-              {
-                "validFrom": "2021-10-01T00:00:00",
-                "validUntil": "2021-11-08T00:00:00",
-                "ruleset": "AT_2G",
-                "pTest": "P2D"
-              }
-            ],
-            "night_gastronomy": [
-              {
-                "validFrom": "2021-10-01T00:00:00",
-                "validUntil": "2021-11-08T00:00:00",
-                "ruleset": "AT_2G"
-              }
-            ],
-            "event_500": [
-              {
-                "validFrom": "2021-10-01T00:00:00",
-                "validUntil": "2021-11-08T00:00:00",
-                "ruleset": "AT_2G"
-              }
-            ]
-          }
-        }
       }
     },
     "DE": {
