@@ -1,14 +1,14 @@
 {
   "android": {
-    "version": "1.2.0",
-    "updated_at": "2021-10-27",
+    "version": "1.2.1",
+    "updated_at": "2021-12-23",
     "download": {
-      "url": "https://github.com/GreenPassApp/greenpass-app/releases/download/1.2.0/GreenPass_v1.2.0.apk",
-      "sha256": "31bc39f7b5e7043a246e03f6626087d7ef5abc4a379d59cdd034ffdcb623ba57"
+      "url": "https://github.com/GreenPassApp/greenpass-app/releases/download/1.2.1/GreenPass_v1.2.1.apk",
+      "sha256": "d15f99998520dd0129cfdda17f77dc9c63146af142fd1953afa1d2ba0296840b"
     },
     "changelog": {
-      "en": "- Color validations by individual regions and purposes have been added\n- Technical expiry date was added in the detail view\n- Cosmetic changes to the app\n- Startup time has been improved\n- Bug fixes",
-      "de": "- Validierungen nach einzelnen Regionen und Verwendungszwecken wurde hinzugefügt\n- Technisches Ablaufdatum wurde in der Detailansicht hinzugefügt\n- Kosmetische Änderungen an der App\n- Startzeit wurde verbessert\n- Fehlerbehebungen"
+      "en": "- Own certificates can now be sorted\n- The expected expiration date of certificates is displayed in the detail view\n- The app remembers the last certificate presented and displays it again after a restart\n- Added Slovak translations\n- Fixed a bug that prevented scanning of certificates from some EU countries\n- Bug fixes",
+      "de": "- Eigene Zertifikate lassen sich nun sortieren\n- Das voraussichtliche Ablaufdatum von Zertifikaten wird in der Detailansicht angezeigt\n- Die App merkt sich das zuletzt vorgezeigte Zertifikat und zeigt dieses nach einem Neustart wieder\n- Slowakische Übersetzungen wurden hinzugefügt\n- Fehler, welcher das Scannen von Zertifikaten aus manchen EU-Ländern verhinderte, wurde behoben\n- Fehlerbehebungen"
     }
   }
 }
