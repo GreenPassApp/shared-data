@@ -53,9 +53,14 @@
           "wait": false
         },
         {
-          "full": true,
+          "dn": ">=3",
           "wait": "P0D",
           "dur": "P270D"
+        },
+        {
+          "full": true,
+          "wait": "P0D",
+          "dur": "P180D"
         }
       ]
     },
@@ -65,9 +70,7 @@
         {
           "mp": "EU/1/20/1525",
           "dn": 1,
-          "full": true,
-          "wait": "P22D",
-          "dur": "P270D"
+          "wait": false
         },
         {
           "full": true,
@@ -83,7 +86,21 @@
       "rTest": "P1D"
     },
     "DE_2G": {
-      "rec": true,
+      "rec": "P90D",
+      "vac": [
+        {
+          "dn": ">=3",
+          "wait": "P0D"
+        },
+        {
+          "full": true,
+          "wait": "P15D",
+          "dur": "P270D"
+        }
+      ]
+    },
+    "DE_2Go": {
+      "rec": "P90D",
       "vac": [
         {
           "dn": "<3",
@@ -135,42 +152,42 @@
       "rules": {
         "3g": [
           {
-            "validFrom": "2021-12-06T00:00:00",
+            "validFrom": "2022-01-03T00:00:00",
             "ruleset": ["AT_2Go", "AT_pt", "AT_rt"]
           },
           {
-            "validFrom": "2022-01-03T00:00:00",
+            "validFrom": "2022-02-01T00:00:00",
             "ruleset": ["AT_2G", "AT_pt", "AT_rt"]
           }
         ],
         "2_5g": [
           {
-            "validFrom": "2021-12-06T00:00:00",
+            "validFrom": "2022-01-03T00:00:00",
             "ruleset": ["AT_2Go", "AT_pt"]
           },
           {
-            "validFrom": "2022-01-03T00:00:00",
+            "validFrom": "2022-02-01T00:00:00",
             "ruleset": ["AT_2G", "AT_pt"]
           }
         ],
         "2g": [
           {
-            "validFrom": "2021-12-06T00:00:00",
+            "validFrom": "2022-01-03T00:00:00",
             "ruleset": "AT_2Go"
           },
           {
-            "validFrom": "2022-01-03T00:00:00",
+            "validFrom": "2022-02-01T00:00:00",
             "ruleset": "AT_2G"
           }
         ],
         "1g": [
           {
-            "validFrom": "2021-12-06T00:00:00",
+            "validFrom": "2022-01-03T00:00:00",
             "ruleset": "AT_2Go",
             "rec": false
           },
           {
-            "validFrom": "2022-01-03T00:00:00",
+            "validFrom": "2022-02-01T00:00:00",
             "ruleset": "AT_2G",
             "rec": false
           }
@@ -181,24 +198,24 @@
           "rules": {
             "3g": [
               {
-                "validFrom": "2021-12-06T00:00:00",
+                "validFrom": "2022-01-03T00:00:00",
                 "ruleset": ["AT_2Go", "AT_rt"],
                 "pTest": "P2D"
               },
               {
-                "validFrom": "2022-01-03T00:00:00",
+                "validFrom": "2022-02-01T00:00:00",
                 "ruleset": ["AT_2G", "AT_rt"],
                 "pTest": "P2D"
               }
             ],
             "2_5g": [
               {
-                "validFrom": "2021-12-06T00:00:00",
+                "validFrom": "2022-01-03T00:00:00",
                 "ruleset": "AT_2Go",
                 "pTest": "P2D"
               },
               {
-                "validFrom": "2022-01-03T00:00:00",
+                "validFrom": "2022-02-01T00:00:00",
                 "ruleset": "AT_2G",
                 "pTest": "P2D"
               }
@@ -211,19 +228,32 @@
       "rules": {
         "3g": [
           {
-            "validFrom": "2021-07-01T00:00:00",
+            "validFrom": "2022-01-15T00:00:00",
+            "ruleset": ["DE_2Go", "DE_T"]
+          },
+          {
+            "validFrom": "2022-02-01T00:00:00",
             "ruleset": ["DE_2G", "DE_T"]
           }
         ],
         "2g": [
           {
-            "validFrom": "2021-07-01T00:00:00",
+            "validFrom": "2022-01-15T00:00:00",
+            "ruleset": "DE_2Go"
+          },
+          {
+            "validFrom": "2022-02-01T00:00:00",
             "ruleset": "DE_2G"
           }
         ],
         "1g": [
           {
-            "validFrom": "2021-07-01T00:00:00",
+            "validFrom": "2022-01-15T00:00:00",
+            "ruleset": "DE_2Go",
+            "rec": false
+          },
+          {
+            "validFrom": "2022-02-01T00:00:00",
             "ruleset": "DE_2G",
             "rec": false
           }
