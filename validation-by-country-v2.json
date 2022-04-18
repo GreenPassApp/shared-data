@@ -104,25 +104,6 @@
         }
       ]
     },
-    "DE_2Go": {
-      "rec": "P90D",
-      "vac": [
-        {
-          "mp": "EU/1/20/1525",
-          "dn": 1,
-          "wait": false
-        },
-        {
-          "dn": "<3",
-          "full": true,
-          "wait": "P15D"
-        },
-        {
-          "full": true,
-          "wait": "P0D"
-        }
-      ]
-    },
     "DE_T": {
       "pTest": "P1D",
       "rTest": "P1D"
@@ -239,29 +220,16 @@
         "3g": [
           {
             "validFrom": "2022-02-13T00:00:00",
-            "ruleset": ["DE_2Go", "DE_T"]
-          },
-          {
-            "validFrom": "2022-02-13T00:00:00",
             "ruleset": ["DE_2G", "DE_T"]
           }
         ],
         "2g": [
           {
             "validFrom": "2022-02-13T00:00:00",
-            "ruleset": "DE_2Go"
-          },
-          {
-            "validFrom": "2022-02-13T00:00:00",
             "ruleset": "DE_2G"
           }
         ],
         "1g": [
-          {
-            "validFrom": "2022-02-13T00:00:00",
-            "ruleset": "DE_2Go",
-            "rec": false
-          },
           {
             "validFrom": "2022-02-13T00:00:00",
             "ruleset": "DE_2G",
