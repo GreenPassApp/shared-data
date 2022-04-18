@@ -64,21 +64,6 @@
         }
       ]
     },
-    "AT_2Go": {
-      "rec": true,
-      "vac": [
-        {
-          "mp": "EU/1/20/1525",
-          "dn": 1,
-          "wait": false
-        },
-        {
-          "full": true,
-          "wait": "P0D",
-          "dur": "P270D"
-        }
-      ]
-    },
     "AT_pt": {
       "pTest": "P3D"
     },
@@ -143,19 +128,11 @@
       "rules": {
         "3g": [
           {
-            "validFrom": "2022-01-03T00:00:00",
-            "ruleset": ["AT_2Go", "AT_pt", "AT_rt"]
-          },
-          {
             "validFrom": "2022-02-01T00:00:00",
             "ruleset": ["AT_2G", "AT_pt", "AT_rt"]
           }
         ],
         "2_5g": [
-          {
-            "validFrom": "2022-01-03T00:00:00",
-            "ruleset": ["AT_2Go", "AT_pt"]
-          },
           {
             "validFrom": "2022-02-01T00:00:00",
             "ruleset": ["AT_2G", "AT_pt"]
@@ -163,20 +140,11 @@
         ],
         "2g": [
           {
-            "validFrom": "2022-01-03T00:00:00",
-            "ruleset": "AT_2Go"
-          },
-          {
             "validFrom": "2022-02-01T00:00:00",
             "ruleset": "AT_2G"
           }
         ],
         "1g": [
-          {
-            "validFrom": "2022-01-03T00:00:00",
-            "ruleset": "AT_2Go",
-            "rec": false
-          },
           {
             "validFrom": "2022-02-01T00:00:00",
             "ruleset": "AT_2G",
@@ -189,22 +157,12 @@
           "rules": {
             "3g": [
               {
-                "validFrom": "2022-01-03T00:00:00",
-                "ruleset": ["AT_2Go", "AT_rt"],
-                "pTest": "P2D"
-              },
-              {
                 "validFrom": "2022-02-01T00:00:00",
                 "ruleset": ["AT_2G", "AT_rt"],
                 "pTest": "P2D"
               }
             ],
             "2_5g": [
-              {
-                "validFrom": "2022-01-03T00:00:00",
-                "ruleset": "AT_2Go",
-                "pTest": "P2D"
-              },
               {
                 "validFrom": "2022-02-01T00:00:00",
                 "ruleset": "AT_2G",
