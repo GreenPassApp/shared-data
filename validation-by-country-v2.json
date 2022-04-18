@@ -55,7 +55,7 @@
         {
           "dn": ">=3",
           "wait": "P0D",
-          "dur": "P270D"
+          "dur": "P365D"
         },
         {
           "full": true,
@@ -128,25 +128,25 @@
       "rules": {
         "3g": [
           {
-            "validFrom": "2022-02-01T00:00:00",
+            "validFrom": "2022-04-16T00:00:00",
             "ruleset": ["AT_2G", "AT_pt", "AT_rt"]
           }
         ],
         "2_5g": [
           {
-            "validFrom": "2022-02-01T00:00:00",
+            "validFrom": "2022-04-16T00:00:00",
             "ruleset": ["AT_2G", "AT_pt"]
           }
         ],
         "2g": [
           {
-            "validFrom": "2022-02-01T00:00:00",
+            "validFrom": "2022-04-16T00:00:00",
             "ruleset": "AT_2G"
           }
         ],
         "1g": [
           {
-            "validFrom": "2022-02-01T00:00:00",
+            "validFrom": "2022-04-16T00:00:00",
             "ruleset": "AT_2G",
             "rec": false
           }
@@ -157,14 +157,14 @@
           "rules": {
             "3g": [
               {
-                "validFrom": "2022-02-01T00:00:00",
+                "validFrom": "2022-04-16T00:00:00",
                 "ruleset": ["AT_2G", "AT_rt"],
                 "pTest": "P2D"
               }
             ],
             "2_5g": [
               {
-                "validFrom": "2022-02-01T00:00:00",
+                "validFrom": "2022-04-16T00:00:00",
                 "ruleset": "AT_2G",
                 "pTest": "P2D"
               }
